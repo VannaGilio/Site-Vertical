@@ -8,8 +8,14 @@ a{
 ul,ol,li{
     list-style: none;
 }
+
+html, body{ /*ver rolagem mexendo*/
+    scroll-behavior: smooth;
+}
 header{
     background-color: rgb(44, 36, 36);
+    position: fixed; /*fixa o header na tela mesmo depois da rolagem*/
+    width: 100vw;
 }
 header nav ul{
     display: flex;
@@ -25,4 +31,22 @@ header nav a:hover{
     background-color: rgb(69, 124, 203);
     color: black;
     border-radius: 8px;
+}
+.grupo{
+    height: 100vh;
+}
+#vermelho{
+    background-color: #ff6b6b;
+}
+#verde{
+    background-color: darkseagreen;
+}
+#azul{
+    background-color: #54a0ff;
+}
+#amarelo{
+    background-color: rgb(235, 222, 71);
+}
+#roxo{
+    background-color: rgb(75, 30, 126);
 }
