@@ -13,40 +13,97 @@ html, body{ /*ver rolagem mexendo*/
     scroll-behavior: smooth;
 }
 header{
-    background-color: rgb(44, 36, 36);
+    background-color: #3B1D7C;
     position: fixed; /*fixa o header na tela mesmo depois da rolagem*/
     width: 100vw;
+    height: 3.5vw;
+    z-index: 1;
 }
 header nav ul{
     display: flex;
-    justify-content: space-between;
-    padding: 16px;
+    justify-content: center;
+    padding: 2.5vh;
 }
 header nav a{
     color: white;
-    padding: 8px;
+    padding: 25px;
+    font-size: 20px;
     transition: 1s; /*tempo de transição de cor*/
 }
 header nav a:hover{
-    background-color: rgb(69, 124, 203);
+    background-color: rgb(103, 68, 174);
     color: black;
-    border-radius: 8px;
+    border-radius: 20px;
 }
 .grupo{
     height: 100vh;
 }
-#vermelho{
-    background-color: #ff6b6b;
+#caixaHistoria.caixa{
+    background-color: rgba(0, 0, 0, 0.575);
+    width: 110vh;
+    height: 50vh;
+    border-radius: 5vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
 }
-#verde{
-    background-color: darkseagreen;
+#textoHistoria{
+    background-color: chocolate;
+    width: 50%;
 }
-#azul{
-    background-color: #54a0ff;
+#fundoHistoria{
+    width: 40vh;
+    margin: 8vh;
+    position: absolute;
 }
-#amarelo{
-    background-color: rgb(235, 222, 71);
+#logo{
+    position: absolute;
+    display: flex;
+    top: 123vh;
+    left: 54%;
 }
-#roxo{
-    background-color: rgb(75, 30, 126);
+#h3historia{
+    text-align: center;
+    width: 35%;
+
+    vertical-align: 10%;
+    color: aliceblue;
+    font-family: "Oxanium", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+#inicio{
+    background-image: url(./img/cenario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#historia{
+    background-image: url(./img/cenario2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#textoHistoria{
+    background-color: aliceblue;
+}
+#gameplays{
+    background-image: url(./img/cenario3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#skills{
+    background-image: url(./img/cenario4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#download{
+    background-image: url(./img/cenario5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fanart{
+    background-color: rgb(0, 0, 0);
 }
